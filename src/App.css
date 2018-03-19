@@ -29,11 +29,6 @@ th {
   white-space: nowrap;
 }
 
-/* td.column0,
-th.column0 {
-  position: absolute;
-} */
-
 .thead-default {
   background: rgba(77, 129, 189, 0.1);
 }

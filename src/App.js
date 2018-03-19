@@ -132,7 +132,7 @@ const TableHead = (props) => {
   return (
     <thead className="thead-default">
       <tr>
-        {props.headNames.map((headerName, index) => <th className={`column${index}`} key={index}>{headerName}</th>)}
+        {props.headNames.map((headerName, index) => <th key={index}>{headerName}</th>)}
       </tr>
     </thead>
   );
